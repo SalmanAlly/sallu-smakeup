@@ -450,6 +450,147 @@ cursor: pointer;
 
 
 
+
+
+/* Media Queries */
+ @media (max-width: 966px){
+   .head-btn{
+      display: none;
+   }
+ }
+ @media(max-width: 768px){
+header{
+   width: 100%;
+}
+   nav>ul{
+   display: none;
+}
+.header-heading1{
+   font-size: 30px;
+}
+.header-heading2{
+   font-size: 20px;
+}
+.header-para{
+   font-size: 1rem;
+}
+.container{
+   margin: 0px 50px;
+}
+.main{
+   display: block;
+   margin: 50px 10px;
+}
+.images{
+   width: 100%;
+   justify-content: center;
+}
+.main-text{
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.main-text h1 {
+   font-size: 25px;
+}
+.main-text h1 {
+   font-size: 25px;
+}
+p{
+   font-size: 1rem;
+   margin-bottom: 10px;
+}
+.services-heading {
+   margin-top: 104px;
+}
+h2{
+   font-size: 25px;
+}
+.services{
+   display: flex;
+   margin: 10px 50px 50px 50px;
+   flex-wrap: wrap;
+}
+.service{
+   margin: 0px;
+}
+h3{
+   font-size: 20px;
+}
+.pricing{
+   height: 100vh;
+}
+.sale{
+   z-index: 111;
+}
+.pricing-image{
+   margin: auto;
+   position: absolute;
+   top: -268px;
+   max-width: 75%;
+}
+.main-prices{
+   position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+}
+.prices{
+   padding: 0;
+   margin: 0;
+}
+.reviews{
+   margin-top: 222px;
+}
+.reviews h2{
+   margin: 40px 0px
+}
+.review{
+   /* width: 100%; */
+}
+footer {
+   height: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+.foot{
+   margin: auto;
+   display: block;
+   height: auto;
+   
+}
+.first{
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   height: auto;
+}
+.footer-logo {
+   font-size: 30px;
+}
+.search h1{
+   font-size: 25px;
+   margin: 15px;
+}
+input{
+   padding: 5px 10px;
+}
+.second{
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   height: auto;
+}
+.icons h2{
+   margin-bottom: 0px;
+}
+.third{
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   height: auto;
+   margin-top: 0%;
+}
+ }
 /* Media Queries */
  @media (max-width: 966px){
    .head-btn{
