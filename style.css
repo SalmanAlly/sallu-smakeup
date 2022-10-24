@@ -7,6 +7,7 @@
    list-style: none;
    box-sizing: border-box;
    font-family: 'Baloo Bhai 2', cursive;
+   overflow-x: hidden;
 }
 h1{
    color: black;
